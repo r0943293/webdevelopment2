@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    color: antiquewhite;
 }
 
 body {
@@ -14,12 +15,6 @@ body ul{
     margin-left:auto;
     margin-right:auto;
     text-decoration: none;
-}
-.Main{
-    margin:auto;
     width:400px;
 
 }
-.Main h1{
-    margin:auto;
-}S
