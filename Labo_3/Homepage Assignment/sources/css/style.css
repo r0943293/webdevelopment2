@@ -1,0 +1,82 @@
+header{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: linear-gradient(45deg, #BF3475 0%, #EE6C45 50%, #FFCE61 100%),no-repeat;
+    background-size: cover;
+
+    border-radius: 10px;
+    width: 50%;
+
+}
+header nav ul {
+    text-align: left;
+    list-style-type: none;
+    overflow: hidden;
+
+
+}
+header nav ul li {
+    float: left;
+    padding: 0.3em;
+    text-align: center;
+    background: #2B1B28;
+    border-radius: 10px;
+    margin-bottom: 0.1em;
+    margin-right: 0.1em;
+}
+header nav ul a {
+    text-decoration: none;
+    color: #FFCE61;
+}
+header nav ul a:hover {
+    color: #BF3475;
+}
+
+
+
+body{
+    background:radial-gradient( ellipse at top, #2B1B28 30% , #000000 90%);
+
+    color: #FBE8C8;
+}
+body img{
+    width:20em;
+    border-radius: 10px;
+
+
+}
+
+main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 3px solid #FFCE61;
+    border-radius: 10px;
+    width: 50%;
+
+}
+main ul {
+    display: inline-block;
+    text-align: left;
+    content: "/21A0";}
+
+main ul li {
+    padding: 0.3em;
+}
+main ul li a {
+    text-decoration: none;
+    color: #FFCE61;
+
+}
+main ul li a:hover {
+    color: #BF3475;
+
+}
+.NoIconLI{
+    list-style-type: none;
+
+}
