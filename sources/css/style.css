@@ -1,25 +1,56 @@
 html, body {
-    height: 100%;
+    min-height: 100%;
     color: antiquewhite;
+    font-family: "Copperplate", Papyrus,fantasy, sans-serif;
+    font-weight: bold;
 }
 
 body {
-    margin: 0;
+
 
     background: linear-gradient(45deg, #BF3475 0%, #EE6C45 50%, #FFCE61 100%),no-repeat;
     background-size: cover;
 
 }
+body h1, h2, h3, h4, h5, h6, p {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+}
+
 
 body ul{
     margin-left:auto;
     margin-right:auto;
     text-decoration: none;
+    list-style: none;
     width:400px;
+    padding:0px;
+
 
 }
+body ul li{
+    border: #2B1B28 1px solid;
+    border-radius: 15px;
+    padding: 2em;
+    margin: 2em;
+    background: rgb(240, 240, 240, 20%);
 
-body h1{
-    margin-left:auto;
+
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: antiquewhite;
+
 
 }
+body ul li a{
+
+    text-decoration: none;
+}
+body ul li a:hover{
+    color: darkcyan;
+}
+
+
