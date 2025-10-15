@@ -1,16 +1,17 @@
-header{
+header {
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 
-    background: linear-gradient(45deg, #BF3475 0%, #EE6C45 50%, #FFCE61 100%),no-repeat;
+    background: linear-gradient(45deg, #BF3475 0%, #EE6C45 50%, #FFCE61 100%), no-repeat;
     background-size: cover;
 
     border-radius: 10px;
     width: 50%;
 
 }
+
 header nav ul {
     text-align: left;
     list-style-type: none;
@@ -18,6 +19,7 @@ header nav ul {
 
 
 }
+
 header nav ul li {
     float: left;
     padding: 0.3em;
@@ -27,29 +29,36 @@ header nav ul li {
     margin-bottom: 0.1em;
     margin-right: 0.1em;
 }
+
 header nav ul a {
     text-decoration: none;
     color: #FFCE61;
 }
+
 header nav ul a:hover {
     color: #BF3475;
 }
 
+html{
+    min-height: 100%;
+
+}
+body {
+    background: radial-gradient(ellipse at top, #2B1B28 30%, #000000 90%);
 
 
-body{
-    background:radial-gradient( ellipse at top, #2B1B28 30% , #000000 90%);
 
     color: #FBE8C8;
 }
-body img{
-    width:20em;
+
+body img {
+    width: 20em;
     border-radius: 10px;
 
 
 }
 
-main{
+main {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -59,25 +68,31 @@ main{
     width: 50%;
 
 
+
 }
+
 main ul {
     display: inline-block;
     text-align: left;
-    content: "/21A0";}
+    content: "/21A0";
+}
 
 main ul li {
     padding: 0.3em;
 }
+
 main ul li a {
     text-decoration: none;
     color: #FFCE61;
 
 }
+
 main ul li a:hover {
     color: #BF3475;
 
 }
-.NoIconLI{
+
+.NoIconLI {
     list-style-type: none;
 
 }
