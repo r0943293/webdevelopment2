@@ -1,0 +1,59 @@
+/*
+Lettertype: Helvetica XXX
+Lettergrootte h1: 80px XXX
+Lettergrootte h2: 40px XXX
+Kleur h1 en h2 in header: #EDF2F4 XXX
+
+Geef de 3 blokken (header, footer en education) een padding van 30px; XXX
+
+Rode kleur van de links: #EF233C XXX
+Grijze tekstkleur in header en footer: #8D99AE XXX
+Achtergrondkleur header en footer: #2B2D42 XXX
+Achtergrondkleur education: #8D99AE XXX
+
+Door een margin van 10px te plaatsen op de header en footer creeëren we de witruimte tussen de 3 blokken:
+Voeg een margin-bottom toe aan de header XXX
+Voeg een margin-top toe aan de footer XXX
+ */
+
+
+body {
+    font-family: Helvetica, sans-serif;
+
+}
+header,footer,.education{
+    padding: 30px;
+
+}
+header,footer{
+    color: #8D99AE;
+    background-color: #2B2D42;
+
+}
+header{
+    margin-bottom: 10px;
+
+}
+footer{
+    margin-top: 10px;
+}
+.education{
+    background-color: #8D99AE;
+}
+
+header > h1,h2{
+    color: #EDF2F4
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 40px;
+
+}
+a{
+    color: #EF233C;
+
+}
