@@ -1,5 +1,5 @@
 a{
-    background-image: url("/Labo_6/Opdracht_5/sources/Images/googleLogo.jpg") ;
+    background-image: url("../Images/googleLogo.jpg") ;
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
