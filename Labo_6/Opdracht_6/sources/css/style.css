@@ -1,11 +1,15 @@
-.checklist:before
+li:before
 {
     content: "\2610";
     margin-right:5px;
 }
 
-.checked:before{
+.checked:before {
     content: "\2611";
     margin-right:5px;
 
+}
+ul{
+
+    list-style-type:none;
 }
