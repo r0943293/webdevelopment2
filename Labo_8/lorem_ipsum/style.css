@@ -1,0 +1,15 @@
+section{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.float-container {
+
+    padding: 10px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+}

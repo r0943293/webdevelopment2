@@ -1,0 +1,21 @@
+section{
+    border: 1px solid black;
+    box-sizing:  border-box;
+    margin-inside: 5px;
+}
+
+
+.float-child1 {
+    width: 49%;
+    float: left;
+    padding: 5px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+.float-child2 {
+    width: 49%;
+    float: right;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
