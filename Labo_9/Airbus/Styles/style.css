@@ -1,38 +1,131 @@
 body {
-    width: 95%;
+    width: 960px;
     margin: auto;
+    background: url("../images/pagebackground.png") center repeat-y;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 header {
-    background-image: url("../images/bgsky3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 200px;
-    width: 100%;
-
-}
-
-header p {
+    background-image: url("../images/bgsky3.jpg");
     margin: auto;
-    text-align: center;
+    position: relative;
     color: darkblue;
+    text-align: center;
 }
 
-header p:first-child {
-    font-size: 300%;
-    font-style: italic;
-    font-weight: bold;
-
-}
-header p:nth-child(2) {
-    font-size: 240%;
-    font-weight: bold;
-
-}
 header img {
     position: absolute;
-    top: 10%;
-    left: 50%;
+    right: 90px;
+    bottom: 60px;
+}
+
+header h1 {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header h2 {
+    font-size: 240%;
+    font-weight: bold;
+}
+
+aside {
+    width: 250px;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    color: #666666;
+    font-size: 90%;
+    float: right;
+}
+
+aside h3 {
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+aside p {
+    padding: 0 10px;
+}
+
+main {
+    width: 700px;
+}
+
+main article p {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    padding: 20px 30px 20px 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+main article img {
+    float: left;
+    padding: 20px;
+}
+
+main article span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main div img {
+    height: 180px;
+    width: 180px;
+
+}
+
+main div {
+    background-color: #999999;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+}
+
+.gallery div img {
+    border: 1px dotted #999999;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+
+
+}
+
+footer div:nth-child(1) {
+    float: left;
+    padding-left: 120px;
+}
+
+footer div:nth-child(2) {
+    overflow: hidden;
+    padding-left: 120px;
+}
+
+footer a:hover {
+    color: red;
+}
+
+.bottom {
+    text-align: center;
+    color: black;
+}
+
+.topimg {
+    padding-top: 10px;
 }
