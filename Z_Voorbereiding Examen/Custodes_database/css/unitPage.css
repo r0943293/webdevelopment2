@@ -1,0 +1,132 @@
+main{
+    display: grid;
+
+    border: 1px goldenrod solid;
+
+}
+nav{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:auto auto auto;
+}
+nav>h1,h2,a{
+    grid-column:1/2;
+    padding-left: 10px;
+}
+nav>img{
+    grid-column:3/4;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+
+
+
+    width: 125px;
+    height: 125px;
+
+
+}
+
+.titel{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:auto auto auto auto ;
+    border: 1px goldenrod solid;
+
+}
+.titel>h2{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: 1px goldenrod solid;
+
+}
+.titel>p{
+
+    grid-row: 2;
+}
+
+p>a{
+    border-bottom: 1px goldenrod solid;
+}
+
+.statBox{
+    border: goldenrod 1px solid;
+    background-color: #FAF9F6;
+    grid-row: 3;
+    color: crimson;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.weapons{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr 1fr 1fr 1fr ;;
+
+    border: 1px goldenrod solid;
+
+}
+.weapons > .rowhead{
+display: contents;
+
+            }
+.weapons > .row {
+    display: contents; /* lets p elements become the grid cells */
+}
+
+.weapons p {
+    border: 1px goldenrod solid;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.abilities {
+    display: grid;
+    grid-template-rows: auto auto auto;
+
+}
+.abilities > .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+@media (min-width: 992px) {
+    nav>img{
+        grid-column:3/4;
+        grid-row: 1/4;
+        width: 125px;
+        height: 125px;
+        align-self: center;
+
+    }
+    .abilities {
+        display: grid;
+        grid-template-rows: auto auto auto;
+
+    }
+    main{
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows:auto auto auto auto auto;
+    }
+
+    nav>h1,h2,a{
+        grid-column:2/3;
+        padding-left: 0;
+    }
+}
