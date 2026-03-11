@@ -77,36 +77,36 @@
     <fieldset>
         <legend>Beveiliging & contact</legend>
         <div>
-        <label for="Wachtwoord">Wachtwoord</label>
-        <input type="password" name="Wachtwoord" id="Wachtwoord" required>
+            <label for="Wachtwoord">Wachtwoord</label>
+            <input type="password" name="Wachtwoord" id="Wachtwoord" required>
         </div>
         <div>
-        <label for="EmailAdress">E-mailadres</label>
-        <input type="email" name="EmailAdress" id="EmailAdress" placeholder="Geef je e-mailadres in">
+            <label for="EmailAdress">E-mailadres</label>
+            <input type="email" name="EmailAdress" id="EmailAdress" placeholder="Geef je e-mailadres in">
         </div>
         <div>
-        <label for="favorieteSite">Favoriete Site</label>
-        <input type="url" name="favorieteSite" id="favorieteSite" placeholder="Geef URL van je favoriete site">
+            <label for="favorieteSite">Favoriete Site</label>
+            <input type="url" name="favorieteSite" id="favorieteSite" placeholder="Geef URL van je favoriete site">
         </div>
     </fieldset>
 
     <fieldset>
         <legend>Extra Informatie</legend>
         <div>
-        <label for="favorieteKleinGetal">Favoriete getal tussen 1-10</label>
-        <input type="number" name="favorieteKleinGetal" id="favorieteKleinGetal" min="1" max="10">
+            <label for="favorieteKleinGetal">Favoriete getal tussen 1-10</label>
+            <input type="number" name="favorieteKleinGetal" id="favorieteKleinGetal" min="1" max="10">
         </div>
         <div>
-        <label for="favorieteGrootgetal">Favoriete getal 11-1000</label>
-        <input type="range" name="favorieteGrootGetal" id="favorieteGrootgetal" min="11" max="1000">
+            <label for="favorieteGrootgetal">Favoriete getal 11-1000</label>
+            <input type="range" name="favorieteGrootGetal" id="favorieteGrootgetal" min="11" max="1000">
         </div>
         <div>
-        <label for="GeboorteDatum">Geboortedatum</label>
-        <input type="date" name="GeboorteDatum" id="GeboorteDatum" placeholder="">
+            <label for="GeboorteDatum">Geboortedatum</label>
+            <input type="date" name="GeboorteDatum" id="GeboorteDatum" placeholder="">
         </div>
         <div>
-        <label for="postcode">Belgische Postcode</label>
-        <input type="text" name="postcode" id="postcode" placeholder="9999" minlength="4" maxlength="4" pattern="[1-9][0-9]{2}[]">
+            <label for="postcode">Belgische Postcode</label>
+            <input type="text" id="postcode" name="postcode" pattern="^(?:[1-8][0-9]{3}|9[0-8][0-9]{2}|99[0-8][0-9]|999[0-2])$" placeholder="1000" required>
         </div>
 
     </fieldset>
@@ -114,18 +114,20 @@
     <fieldset>
         <legend>Varia</legend>
         <div>
-        <label for="Search">Zoeken naar iets</label>
-        <input type="search" name="search" id="Search" placeholder="">
+            <label for="Search">Zoeken naar iets</label>
+            <input type="search" name="search" id="Search" placeholder="">
         </div>
         <div>
-        <label for="favorieteKleur">Wat is je lievelings kleur?</label>
-        <input type="color" name="favorieteKleur" id="favorieteKleur" placeholder="Schrijf je favoriete quote">
+            <label for="favorieteKleur">Wat is je lievelings kleur?</label>
+            <input type="color" name="favorieteKleur" id="favorieteKleur" placeholder="Schrijf je favoriete quote">
         </div>
         <div>
-        <label for="File"></label>
-        <input type="file" name="File" id="file" placeholder="Schrijf je favoriete quote">
+            <label for="File"></label>
+            <input type="file" name="File" id="file" placeholder="Schrijf je favoriete quote">
         </div>
     </fieldset>
+
+    <button type="submit">Submit</button>
 
 
 </form>
