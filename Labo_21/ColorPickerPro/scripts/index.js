@@ -41,7 +41,7 @@ const setup = () => {
         const b = blauwSlider.value;
         const kleurVlak = document.createElement("div");
 
-        global.allSavedColors.push(global.huidigeKleur);
+        global.allSavedColors.push(JSON.parse(global.huidigeKleur));
         localStorage.setItem("colors", global.allSavedColors);
         console.log(global.allSavedColors);
 
